@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2908CEC22196BF2D006A2759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2908CEC12196BF2D006A2759 /* AppDelegate.swift */; };
+		2908CEC42196BF2D006A2759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2908CEC32196BF2D006A2759 /* ViewController.swift */; };
+		2908CEC62196BF32006A2759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2908CEC52196BF32006A2759 /* Assets.xcassets */; };
+		2908CEC92196BF32006A2759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2908CEC72196BF32006A2759 /* Main.storyboard */; };
+		2908CED52196BF32006A2759 /* macOSClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2908CED42196BF32006A2759 /* macOSClockTests.swift */; };
+		2908CEE02196BF33006A2759 /* macOSClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2908CEDF2196BF33006A2759 /* macOSClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2908CED12196BF32006A2759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2908CEB62196BF2D006A2759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2908CEBD2196BF2D006A2759;
+			remoteInfo = macOSClock;
+		};
+		2908CEDC2196BF33006A2759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2908CEB62196BF2D006A2759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2908CEBD2196BF2D006A2759;
+			remoteInfo = macOSClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2908CEBE2196BF2D006A2759 /* macOSClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2908CEC12196BF2D006A2759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2908CEC32196BF2D006A2759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2908CEC52196BF32006A2759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2908CEC82196BF32006A2759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2908CECA2196BF32006A2759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2908CECB2196BF32006A2759 /* macOSClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSClock.entitlements; sourceTree = "<group>"; };
+		2908CED02196BF32006A2759 /* macOSClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2908CED42196BF32006A2759 /* macOSClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSClockTests.swift; sourceTree = "<group>"; };
+		2908CED62196BF33006A2759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2908CEDB2196BF33006A2759 /* macOSClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2908CEDF2196BF33006A2759 /* macOSClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSClockUITests.swift; sourceTree = "<group>"; };
+		2908CEE12196BF33006A2759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2908CEBB2196BF2D006A2759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2908CECD2196BF32006A2759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2908CED82196BF33006A2759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2908CEB52196BF2D006A2759 = {
+			isa = PBXGroup;
+			children = (
+				2908CEC02196BF2D006A2759 /* macOSClock */,
+				2908CED32196BF32006A2759 /* macOSClockTests */,
+				2908CEDE2196BF33006A2759 /* macOSClockUITests */,
+				2908CEBF2196BF2D006A2759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2908CEBF2196BF2D006A2759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2908CEBE2196BF2D006A2759 /* macOSClock.app */,
+				2908CED02196BF32006A2759 /* macOSClockTests.xctest */,
+				2908CEDB2196BF33006A2759 /* macOSClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2908CEC02196BF2D006A2759 /* macOSClock */ = {
+			isa = PBXGroup;
+			children = (
+				2908CEC12196BF2D006A2759 /* AppDelegate.swift */,
+				2908CEC32196BF2D006A2759 /* ViewController.swift */,
+				2908CEC52196BF32006A2759 /* Assets.xcassets */,
+				2908CEC72196BF32006A2759 /* Main.storyboard */,
+				2908CECA2196BF32006A2759 /* Info.plist */,
+				2908CECB2196BF32006A2759 /* macOSClock.entitlements */,
+			);
+			path = macOSClock;
+			sourceTree = "<group>";
+		};
+		2908CED32196BF32006A2759 /* macOSClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				2908CED42196BF32006A2759 /* macOSClockTests.swift */,
+				2908CED62196BF33006A2759 /* Info.plist */,
+			);
+			path = macOSClockTests;
+			sourceTree = "<group>";
+		};
+		2908CEDE2196BF33006A2759 /* macOSClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2908CEDF2196BF33006A2759 /* macOSClockUITests.swift */,
+				2908CEE12196BF33006A2759 /* Info.plist */,
+			);
+			path = macOSClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2908CEBD2196BF2D006A2759 /* macOSClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2908CEE42196BF33006A2759 /* Build configuration list for PBXNativeTarget "macOSClock" */;
+			buildPhases = (
+				2908CEBA2196BF2D006A2759 /* Sources */,
+				2908CEBB2196BF2D006A2759 /* Frameworks */,
+				2908CEBC2196BF2D006A2759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOSClock;
+			productName = macOSClock;
+			productReference = 2908CEBE2196BF2D006A2759 /* macOSClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2908CECF2196BF32006A2759 /* macOSClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2908CEE72196BF33006A2759 /* Build configuration list for PBXNativeTarget "macOSClockTests" */;
+			buildPhases = (
+				2908CECC2196BF32006A2759 /* Sources */,
+				2908CECD2196BF32006A2759 /* Frameworks */,
+				2908CECE2196BF32006A2759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2908CED22196BF32006A2759 /* PBXTargetDependency */,
+			);
+			name = macOSClockTests;
+			productName = macOSClockTests;
+			productReference = 2908CED02196BF32006A2759 /* macOSClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2908CEDA2196BF33006A2759 /* macOSClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2908CEEA2196BF33006A2759 /* Build configuration list for PBXNativeTarget "macOSClockUITests" */;
+			buildPhases = (
+				2908CED72196BF33006A2759 /* Sources */,
+				2908CED82196BF33006A2759 /* Frameworks */,
+				2908CED92196BF33006A2759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2908CEDD2196BF33006A2759 /* PBXTargetDependency */,
+			);
+			name = macOSClockUITests;
+			productName = macOSClockUITests;
+			productReference = 2908CEDB2196BF33006A2759 /* macOSClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2908CEB62196BF2D006A2759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Ryoga.Horikoshi;
+				TargetAttributes = {
+					2908CEBD2196BF2D006A2759 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					2908CECF2196BF32006A2759 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2908CEBD2196BF2D006A2759;
+					};
+					2908CEDA2196BF33006A2759 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2908CEBD2196BF2D006A2759;
+					};
+				};
+			};
+			buildConfigurationList = 2908CEB92196BF2D006A2759 /* Build configuration list for PBXProject "macOSClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2908CEB52196BF2D006A2759;
+			productRefGroup = 2908CEBF2196BF2D006A2759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2908CEBD2196BF2D006A2759 /* macOSClock */,
+				2908CECF2196BF32006A2759 /* macOSClockTests */,
+				2908CEDA2196BF33006A2759 /* macOSClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2908CEBC2196BF2D006A2759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2908CEC62196BF32006A2759 /* Assets.xcassets in Resources */,
+				2908CEC92196BF32006A2759 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2908CECE2196BF32006A2759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2908CED92196BF33006A2759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2908CEBA2196BF2D006A2759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2908CEC42196BF2D006A2759 /* ViewController.swift in Sources */,
+				2908CEC22196BF2D006A2759 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2908CECC2196BF32006A2759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2908CED52196BF32006A2759 /* macOSClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2908CED72196BF33006A2759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2908CEE02196BF33006A2759 /* macOSClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2908CED22196BF32006A2759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2908CEBD2196BF2D006A2759 /* macOSClock */;
+			targetProxy = 2908CED12196BF32006A2759 /* PBXContainerItemProxy */;
+		};
+		2908CEDD2196BF33006A2759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2908CEBD2196BF2D006A2759 /* macOSClock */;
+			targetProxy = 2908CEDC2196BF33006A2759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2908CEC72196BF32006A2759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2908CEC82196BF32006A2759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2908CEE22196BF33006A2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2908CEE32196BF33006A2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2908CEE52196BF33006A2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOSClock/macOSClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.macOSClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2908CEE62196BF33006A2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOSClock/macOSClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.macOSClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2908CEE82196BF33006A2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.macOSClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOSClock.app/Contents/MacOS/macOSClock";
+			};
+			name = Debug;
+		};
+		2908CEE92196BF33006A2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.macOSClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOSClock.app/Contents/MacOS/macOSClock";
+			};
+			name = Release;
+		};
+		2908CEEB2196BF33006A2759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.macOSClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = macOSClock;
+			};
+			name = Debug;
+		};
+		2908CEEC2196BF33006A2759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.macOSClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = macOSClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2908CEB92196BF2D006A2759 /* Build configuration list for PBXProject "macOSClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2908CEE22196BF33006A2759 /* Debug */,
+				2908CEE32196BF33006A2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2908CEE42196BF33006A2759 /* Build configuration list for PBXNativeTarget "macOSClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2908CEE52196BF33006A2759 /* Debug */,
+				2908CEE62196BF33006A2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2908CEE72196BF33006A2759 /* Build configuration list for PBXNativeTarget "macOSClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2908CEE82196BF33006A2759 /* Debug */,
+				2908CEE92196BF33006A2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2908CEEA2196BF33006A2759 /* Build configuration list for PBXNativeTarget "macOSClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2908CEEB2196BF33006A2759 /* Debug */,
+				2908CEEC2196BF33006A2759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2908CEB62196BF2D006A2759 /* Project object */;
+}
